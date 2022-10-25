@@ -7,10 +7,20 @@
         var a_x=parseFloat(liczba1);
         var b_x=parseFloat(liczba2);
  document.write("wczytane liczby: A="+a_x+" B="+b_x+"<br>");
- document.write("("+a_x+" + " +b_x+")^3=");
- document.write("("+a_x+"^3");
- document.write("+3*"+a_x+"^2*"+b_x);
-</script>
+document.write("("+a_x+" + "+b_x+")^3=");
+				document.write(a_x+"^3");
+				document.write("+3*(("+a_x+")^2)*("+b_x+")");
+				document.write("+3*("+a_x+")*(("+b_x+")^"+b_x+")");
+				document.write("+"+b_x+"^3");
+
+				suma_1= a_x*a_x*a_x;
+				suma_2= ((3*a_x)*a_x)*b_x;
+				suma_3= 3*a_x*(b_x*x_x);
+				suma_4= b_x*b_x*b_x;
+				
+				
+				suma_x=suma_1+suma_2+suma_3+suma_4;
+				document.write("="+suma_x);
 </div>
   </body>
 </html>
