@@ -1,3 +1,25 @@
 <textarea rows="150" cols="200" scrolling="no">
-
+<html>
+  <body>
+    <div style="color:red;font-size:50px;">
+      <script language="Javascript">
+        var liczba1=prompt("dzień1=", "");
+        var godzina1=prompt("godzina1=", "");
+        var liczba2=prompt("dzień2=", "");
+        var godzina2=prompt("godzina2=", "");
+        var ilosc_sekund_kow;
+        var D1_cur=parseFloat(liczba1);
+        var G1_cur=parseFloat(godzina1);
+        var D2_cur=parseFloat(liczba2);
+        var G2_cur=parseFloat(godzina2);
+        
+ilosc_sekund_cur=(D1_cur-D2_cur)*24*3600;
+ilosc_sekund_cur2=ilosc_sekund_cur-((24-godzina1)*3600)+((24-godzina2)*3600);
+document.write("sekundy="+ilosc_sekund_cur2+" sek"+"<br>");
+document.write("dzien1="+D1_cur+"<br>");
+document.write("dzien2="+D2_cur+"<br>");
+      </script>
+    </div>
+</body>
+</html>
 </textarea>
