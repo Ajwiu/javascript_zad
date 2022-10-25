@@ -13,7 +13,8 @@
         var G2_cur=parseFloat(godzina2);
         
 ilosc_sekund_cur=(D1_cur-D2_cur)*24*3600;
-document.write("sekundy="+ilosc_sekund_cur+" sek"+"<br>");
+ilosc_sekund_cur2=ilosc_sekund_cur-((24-godzina1)*3600)+((24-godzina2)*3600);
+document.write("sekundy="+ilosc_sekund_cur2+" sek"+"<br>");
 document.write("dzien1="+D1_cur+"<br>");
 document.write("dzien2="+D2_cur+"<br>");
       </script>
@@ -21,3 +22,6 @@ document.write("dzien2="+D2_cur+"<br>");
 </body>
 </html>
 
+
+ 
+ 
