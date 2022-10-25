@@ -2,30 +2,24 @@
   <body>
     <div style="color:red;font-size:50px;">
       <script language="Javascript">
-    
-				var liczba1=prompt("Podaj Pierwsza Liczbe A=","");
-				var liczba2=prompt("Podaj Druga Liczbe B=","");
-				var a_c=parseFloat(liczba1);
-				var b_c=parseFloat(liczba2);
+       var liczba1=prompt("Podaj Pierwsza Liczbe A=","");
+       var liczba2=prompt("Podaj Druga Liczbe B=","");
+       var a_c=parseFloat(liczba1);
+       var b_c=parseFloat(liczba2);
 				
-				document.write("Wczytane Liczby: A="+a_c+" | B="+b_c+"<br>");
-				
-				document.write("("+a_c+" + "+b_c+")^3=");
-				document.write(a_c+"^3");
-				document.write("+3*(("+a_c+")^2)*("+b_c+")");
-				document.write("+3*("+a_c+")*(("+b_c+")^"+b_c+")");
-				document.write("+"+b_c+"^3");
-
-				suma_1= a_c*a_c*a_c;
-				suma_2= ((3*a_c)*a_c)*b_c;
-				suma_3= 3*a_c*(b_c*b_c);
-				suma_4= b_c*b_c*b_c;
-				
-				
-				suma_c=suma_1+suma_2+suma_3+suma_4;
-				document.write("="+suma_c);
-  
-	    </script>
-	  </div>
-	      </body>
+document.write("Wczytane Liczby: A="+a_c+" | B="+b_c+"<br>");
+document.write("("+a_c+" + "+b_c+")^3=");
+document.write(a_c+"^3");
+document.write("+3*(("+a_c+")^2)*("+b_c+")");
+document.write("+3*("+a_c+")*(("+b_c+")^"+b_c+")");
+document.write("+"+b_c+"^3");
+suma_1= a_c*a_c*a_c;
+suma_2= ((3*a_c)*a_c)*b_c;
+suma_3= 3*a_c*(b_c*b_c);
+suma_4= b_c*b_c*b_c;
+suma_c=suma_1+suma_2+suma_3+suma_4;
+document.write("="+suma_c);
+  </script>
+</div>
+</body>
 </html>
